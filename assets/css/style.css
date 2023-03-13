@@ -1,0 +1,14 @@
+
+.bg-header div a{
+    color: white;
+    text-decoration: none;
+}
+
+h3{
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+}
+
+.bg-header{
+    background-color: #2C3E50;
+}
