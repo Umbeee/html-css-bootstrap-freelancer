@@ -12,3 +12,104 @@ h3{
 .bg-header{
     background-color: #2C3E50;
 }
+
+#start-bootstrap,
+#about,
+#btn-send{
+    background-color: #49bb9e;
+}
+
+#btn-send{
+    border: none;
+}
+
+.star-divider::before{
+    margin-right: 1rem;
+}
+.star-divider::after{
+    margin-left: 1rem;
+}
+
+.star-divider::after,
+.star-divider::before{
+    content: "";
+    display: inline-block;
+    width: 15%;
+    height: 3px;
+    background-color: white;
+    vertical-align: middle;
+}
+
+#start-bootstrap ul li{
+    list-style-type: none;
+    color: white;
+}
+
+#start-bootstrap ul li::before{
+    content: "-";
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+#start-bootstrap ul li:first-child::before{
+    content: "";
+}
+
+#contact-me .star-divider::before,
+#contact-me .star-divider::after,
+#portfolio .star-divider::before,
+#portfolio .star-divider::after{
+    background-color: var(--bs-dark);
+}
+
+#FormControlTextarea1,
+#FormControlInput1{
+    background-color: white;
+}
+
+#floatingTextarea2{
+    border: none;
+    border-radius: 0;
+}
+
+#pre-footer{
+background-color: #3A546D;
+margin-top: 0;
+}
+
+.link-bootstrap{
+    text-decoration: none;
+    color: #49bb9e;
+}
+
+.btn-custom{
+    width: 50px; height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+footer{
+    background-color: #2C3E50;
+    /* margin-top: 0;
+    padding-top: 0; */
+}
+/* main{
+    margin-bottom: 0;
+    padding-bottom: 0;
+} */
+
+
+@media only screen and (min-width: 768px){
+    .btn-custom{
+        width: 40px; height: 40px;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .btn-custom{
+        width: 50px; height: 50px;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+}
